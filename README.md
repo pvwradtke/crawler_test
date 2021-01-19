@@ -1,6 +1,8 @@
 # crawler_test
 Project to try out Flask and Docker to make a containerized web crawler that search for images links inside web pages and their linked pages (2 levels of depth).
 
+For complete details, please see the file webcrawler_white_paper.pdf.
+
 After checking out the project, build it with:
 
   docker build -t crawler_test -f Dockerfile ./
